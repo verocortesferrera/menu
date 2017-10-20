@@ -1,0 +1,30 @@
+body{
+	font-family: sans-serif;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	line-height: 40px; /*anchodel bloque*/
+}
+
+li{
+	width: 100px;
+	color: #000;
+	display: inline-block;
+	margin-left: 20px;
+	text-align: center; /*centra en el bloque el texto*/
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+a:hover{
+	background-color: yellow;
+	color: gray;
+}
